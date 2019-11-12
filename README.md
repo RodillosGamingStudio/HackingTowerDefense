@@ -127,10 +127,10 @@ En Modelado se usará *ZBrush* y en Texturización *Substance*.
 <br><br>
 
 ## MONETIZACIÓN
-<p><b>Formato episódico:</b></br> cada episodio tiene un conjunto de niveles y personajes (hackers) sobre los que vas descubriendo información. Según progresa la historia se irá revelando más información sobre el programa.
-Los episodios se irán lanzando según se vayan desarrollando con un precio de 2.99€ para todos.<br></p>
+<p><b>Formato episódico:</b></br> Cada episodio tiene un conjunto de niveles y personajes (hackers) sobre los que vas descubriendo información. Según progresa la historia se irá revelando más información sobre el programa.
+Los episodios se irán lanzando según se vayan desarrollando, cada uno contará con 3 niveles nuevos e introducirá a un nuevo personaje, el precio de cada uno de estos episodios será 2.99€.<br></p>
 
-<p><b>Booklet de concept:</b><br> por un pequeño extra puedes obtener un libro con el arte original del juego y comentarios sobre los diseños, así como contenido extra que amplía el del juego.<br></p>
+<p><b>Booklet de concept:</b><br> Por un pequeño extra puedes obtener un libro con el arte original del juego y comentarios de los desarrolladores sobre los diseños, así como contenido extra (como información nueva sobre los hackers y el protagonista) que amplía el del juego.<br></p>
 <br>
 
 ## FUTURO DE HACKING TOWER DEFENSE
