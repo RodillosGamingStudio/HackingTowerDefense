@@ -127,7 +127,7 @@ En Modelado se usará *ZBrush* y en Texturización *Substance*.
 <br><br>
 
 ## MONETIZACIÓN
-<p><b>Formato episódico:</br> cada episodio tiene un conjunto de niveles y personajes (hackers) sobre los que vas descubriendo información. Según progresa la historia se irá revelando más información sobre el programa.
+<p><b>Formato episódico:</b> cada episodio tiene un conjunto de niveles y personajes (hackers) sobre los que vas descubriendo información. Según progresa la historia se irá revelando más información sobre el programa.
 Los episodios se irán lanzando según se vayan desarrollando con un precio preestablecido para todos.<br></p>
 
 <p><b>Booklet de concept:</b> por un pequeño extra puedes obtener un libro con el arte original del juego y comentarios sobre los diseños, así como contenido extra que amplía el del juego.<br></p>
