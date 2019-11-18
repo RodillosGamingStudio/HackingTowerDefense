@@ -121,14 +121,17 @@ Lo que decidirá el número de estrellas que dar al jugador dependerá de la <b>
 
 # 3. LOGÍSTICA
 ## HERRAMIENTAS DE DESARROLLO
-Se trata de un videojuego en 3D, por lo que será desarrollado con el motor gráfico *Unity 3D* respaldado con el IDE *Microsoft Visual Studio 2019* para codificación.<br>
+Se trata de un videojuego en 3D, por lo que será desarrollado con el motor gráfico *Unity 3D* en su versión 2018.4 respaldado con el IDE *Microsoft Visual Studio 2019* para codificación.<br>
 Para la etapa de Concept Art, se utilizará *Adobe Photoshop CC 2018*.
 En Modelado se usará *ZBrush* y en Texturización *Substance*.
 <br><br>
 
 ## MONETIZACIÓN
-<p><b>Formato episódico:</b></br> Cada episodio tiene un conjunto de niveles y personajes (hackers) sobre los que vas descubriendo información. Según progresa la historia se irá revelando más información sobre el programa.
-Los episodios se irán lanzando según se vayan desarrollando, cada uno contará con 3 niveles nuevos e introducirá a un nuevo personaje, el precio de cada uno de estos episodios será 2.99€.<br></p>
+<p><b>Formato episódico:</b></br> Cada episodio tiene un conjunto de niveles y personajes (hackers) sobre los que vas descubriendo información. Según progresa la historia se irá revelando más información sobre el programa.<br>
+Los episodios se irán lanzando según se vayan desarrollando, cada uno contará con 3 niveles nuevos e introducirá a un nuevo personaje, el precio de cada uno de estos episodios será 2.99€.<br>
+Este precio es el más adecuado porque lo hace algo asequible para el cliente y al mismo tiempo nos reporta suficientes beneficios para amortizar las horas invertidas en el desarrollo y obtener una ganancia suficente.<br>
+Además al ser asequible tendremos una audiencia asegurada en los compradores de los primeros episodios, que deseosos de continuar con la historia seguiran comprando los siguientes.
+<br></p>
 
 <p><b>Booklet de concept:</b><br> Por un pequeño extra puedes obtener un libro con el arte original del juego y comentarios de los desarrolladores sobre los diseños, así como contenido extra (como información nueva sobre los hackers y el protagonista) que amplía el del juego.<br></p>
 <br>
