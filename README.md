@@ -128,10 +128,16 @@ En Modelado se usará *ZBrush* y en Texturización *Substance*.
 
 ## MONETIZACIÓN
 <p><b>Formato episódico:</b></br> Cada episodio tiene un conjunto de niveles y personajes (hackers) sobre los que vas descubriendo información. Según progresa la historia se irá revelando más información sobre el programa.<br>
-Los episodios se irán lanzando según se vayan desarrollando, cada uno contará con 3 niveles nuevos e introducirá a un nuevo personaje, el precio de cada uno de estos episodios será 2.99€.<br>
-Este precio es el más adecuado porque lo hace algo asequible para el cliente y al mismo tiempo nos reporta suficientes beneficios para amortizar las horas invertidas en el desarrollo y obtener una ganancia suficente.<br>
-Además al ser asequible tendremos una audiencia asegurada en los compradores de los primeros episodios, que deseosos de continuar con la historia seguiran comprando los siguientes.
-<br></p>
+Los episodios se irán lanzando según se vayan desarrollando, cada uno contará con 3 niveles nuevos, nuevos tipos de torres y enemigos e introducirá a un nuevo personaje, el precio de cada uno de estos episodios será 2.99€.<br></p>
+
+<p>Este precio es el más adecuado porque lo hace algo asequible para el cliente y nos proporcionará una audiencia asegurada en los compradores de los primeros episodios, que deseosos de continuar con la historia seguirán comprando los siguientes.</p>
+
+<p>Estimamos que las horas de trabajo invertidas serán de 104 para el primer episodio (40 de programación, 45 de arte incluyendo concept, modelado y texturizado, 12 de diseño de niveles, 10 de diseño de interfaces y 5 de guión), y que cada episodio adicional llevará 28 horas (1 hora de programación, 10 de arte, 12 de diseño de niveles y 5 de guión).
+<br>Basándonos en esta estimación podemos calcular los beneficios por hora que obtendríamos en función de las copias vendidas, como se muestra en la siguiente tabla:
+
+<img alt="Beneficios" src="Documentation/EstimacionBeneficios.png" width="800"><br></p>
+
+<p>Para obtener una ganancia aceptable por nuestras horas de trabajo necesitaríamos vender al menos 50 copias haciendo 3 episodios, o si quisieramos obtenerla desde el primero necesitaríamos vender al menos 300 copias, a partir de ahí todas las copias extra y episodios adicionales serían beneficio.<br></p>
 
 <p><b>Booklet de concept:</b><br> Por un pequeño extra puedes obtener un libro con el arte original del juego y comentarios de los desarrolladores sobre los diseños, así como contenido extra (como información nueva sobre los hackers y el protagonista) que amplía el del juego.<br></p>
 <br>
