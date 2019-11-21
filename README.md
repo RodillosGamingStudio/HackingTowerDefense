@@ -137,6 +137,10 @@ Los episodios se irán lanzando según se vayan desarrollando, cada uno contará
 
 <img alt="Beneficios" src="Documentation/EstimacionBeneficios.png" width="800"><br></p>
 
+<p>A continuación podemos ver una gráfica que ilustra los beneficios por hora de trabajo en función de las copias vendidas, dependiendo de si se trata del primer capítulo o uno de los consecutivos:
+
+<img alt="GraficaBeneficios" src="Documentation/GraficaBeneficios.png" width="400"><br></p>
+
 <p>Para obtener una ganancia aceptable por nuestras horas de trabajo necesitaríamos vender al menos 50 copias haciendo 3 episodios, o si quisieramos obtenerla desde el primero necesitaríamos vender al menos 300 copias, a partir de ahí todas las copias extra y episodios adicionales serían beneficio.<br></p>
 
 <p><b>Booklet de concept:</b><br> Por un pequeño extra puedes obtener un libro con el arte original del juego y comentarios de los desarrolladores sobre los diseños, así como contenido extra (como información nueva sobre los hackers y el protagonista) que amplía el del juego.<br></p>
