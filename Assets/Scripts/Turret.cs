@@ -5,6 +5,9 @@ public class Turret : MonoBehaviour
 {
 
     private Transform target;
+    private Enemy targetEnemy;
+
+
     public float range = 15f;
 
     public string enemyTag = "Enemy";
@@ -14,6 +17,11 @@ public class Turret : MonoBehaviour
 
     public float fireRate = 1f;
     private float fireCountdown = 0f;
+
+    [Header ("Hola")]
+    public bool useLaser;
+    public LineRenderer lineRenderer;
+    public int damageOverTime = 30;
 
     public GameObject bulletPrefab;
     public Transform firePoint;
@@ -44,6 +52,8 @@ public class Turret : MonoBehaviour
         if (nearestEnemy != null && shortestDistance <= range)
         {
             target = nearestEnemy.transform;
+            targetEnemy = nearestEnemy.GetComponent<Enemy>();
+
         } else
         {
             target = null;
@@ -55,13 +65,20 @@ public class Turret : MonoBehaviour
     {
         if (target == null)
         {
+
+            if (useLaser) {
+                if (lineRenderer.enabled) {
+                    lineRenderer.enabled = false;
+                }
+            }
             return;
         }
 
-        Vector3 dir = target.position - transform.position;
-        Quaternion lookRotation = Quaternion.LookRotation(dir);
-        Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
-        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+        LockOnTarget();
+
+        if (useLaser) {
+            Laser();
+        }
 
         if (fireCountdown <= 0f)
         {
@@ -71,6 +88,29 @@ public class Turret : MonoBehaviour
 
         fireCountdown -= Time.deltaTime;
 
+    }
+
+    void LockOnTarget()
+    {
+
+        Vector3 dir = target.position - transform.position;
+        Quaternion lookRotation = Quaternion.LookRotation(dir);
+        Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;
+        partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+    }
+
+    void Laser()
+    {
+
+        targetEnemy.TakeDamage(damageOverTime * Time.deltaTime);
+
+        if (!lineRenderer.enabled)
+        {
+            lineRenderer.enabled = true;
+        }
+
+        lineRenderer.SetPosition(0, firePoint.position);
+        lineRenderer.SetPosition(1, target.position);
     }
 
     void Shoot()

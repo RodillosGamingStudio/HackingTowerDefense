@@ -38,13 +38,14 @@ public class Node : MonoBehaviour
             return;
         }
 
-        if (!buildManager.CanBuild)
+        if (turret != null)
         {
+            buildManager.SelectNode(this);
             return;
         }
 
-        if (turret != null){
-            Debug.Log("No se puede construir aqui");
+        if (!buildManager.CanBuild)
+        {
             return;
         }
 
