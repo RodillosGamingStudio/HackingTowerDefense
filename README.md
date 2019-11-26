@@ -13,13 +13,17 @@ Nuestro equipo de desarrollo, Rodillo´s Games, está compuesto por los siguient
 <br>
 
 ## DESCRIPCIÓN
-Has creado un programa que de salir a a la luz cambiará la realidad tal y como la conocemos. Viendo lo peligroso que puede llegar a ser decides no compartirlo con el mundo, pero después de todo tu trabajo no te sientes capaz de destruirlo.<br>
-Ahora varios hackers tratan de robar los datos de tu programa y solo podrás protegerlo mediante uno de los protocolos que forman parte de él, el protocolo TOWER.<br>
-Mientras te enfrentas a los hackers irás descubriendo información sobre ellos y se irá mostrando el verdadero propósito del programa. Puede que incluso cambies de opinión sobre su uso.
+Un extraño programa ha llegado a parar a tu ordenador y te advierte de que te están hackeando.<br>
+
+Siguiendo sus instrucciones y utilizando el <b>protocolo TOWER</b> tendrás que ser capaz de protegerlo para que los hackers no roben sus datos.<br>
+  
+Mientras te enfrentas a los hackers irás descubriendo información sobre ellos y se irá mostrando la verdadera naturaleza del programa.<br>
+
+Cómo uses dicho programa dependerá solamente de ti.<br>
 <br>
 
 ## OBJETIVO
-El objetivo de *Hacking Tower Defense* es proteger tu nuevo programa para evitar que los hackers accedan a él y te roben datos. Para ello, podrás valerte de una serie de torres en los límites físicos del programa que atacarán a todo agente sospechoso que se acerque por la zona. Dispondrás un terreno finito y tu tarea será gestionar y desplegar las distintas torres con las que cuentes en tu inventario. Pero cuidado, si algún hacker consigue entrar, empezará a robarte información y tu código irá desapareciendo paulatinamente hasta que se adueñen de todo tu programa. <b>¡Debes impedirlo!</b>
+El objetivo de *Hacking Tower Defense* es proteger tu nuevo programa para evitar que los hackers accedan a él y roben sus datos. Para ello, podrás valerte de una serie de torres en los límites físicos del programa que atacarán a todo agente sospechoso que se acerque por la zona. Dispondrás un terreno finito y tu tarea será gestionar y desplegar las distintas torres con las que cuentes en tu inventario. Pero cuidado, si algún hacker consigue entrar, empezará a robarte información y tu código irá desapareciendo paulatinamente hasta que se adueñen de todo tu programa. <b>¡Debes impedirlo!</b>
 <br><br>
 
 ## PLATAFORMAS Y REGIONES
@@ -29,15 +33,22 @@ El objetivo de *Hacking Tower Defense* es proteger tu nuevo programa para evitar
 # 2. ESTRUCTURA DEL JUEGO
 ## PANTALLAS
 El juego dispone de las siguientes pantallas:
++ Escritorio del Sistema Operativo
 + Menú principal
 + Ajustes
 + Créditos
 + Selección de nivel
 + Pantalla de juego (*in-game*)
-+ Menú de pausa
++ Menú de pausa<br>
+
+La pantalla Escritorio del S.O. solo será accesible la primera vez que se juegue. En adelante, apareceremos siempre en el Menú Principal.<br>
+
 Desde Ajustes, Créditos, Selección de nivel o el mismo juego, podemos regresar al Menú Principal (perdiendo los últimos avances de la partida en el caso de la Pantalla de Juego), y desde él podremos salir de la aplicación.<br>
+
 El Menú de Pausa congelará el juego. Desde él, podremos regresar a él en el último punto o salir al Menú Principal con la consecuente pérdida del avance.<br>
+
 La transición de pantallas es la que se indica en el siguiente diagrama.<br>
+
 <img alt="Pantallas" src="Documentation/DiagramaPantallas.png" width="400">
 <br>
 
