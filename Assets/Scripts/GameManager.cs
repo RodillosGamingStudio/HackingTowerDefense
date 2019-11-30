@@ -9,9 +9,12 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverUI;
 
     public GameObject gameUI;
+
+    private UIScript menu;
     
     void Start()
     {
+        menu = FindObjectOfType<UIScript>();
         GameIsOver = false;
     }
 
@@ -36,7 +39,7 @@ public class GameManager : MonoBehaviour
     {
         GameIsOver = true;
 
-        gameOverUI.SetActive(true);
+        menu.ChangeScreenTo(4);
 
         gameUI.SetActive(false);
 
