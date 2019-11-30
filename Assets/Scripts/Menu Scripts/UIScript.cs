@@ -8,32 +8,89 @@ using UnityEngine.SceneManagement;
 
 public class UIScript : MonoBehaviour
 {
-    public GameObject canvasContainer;
-    public GameObject music;
-    public GameObject effects;
+    private GameObject canvasContainer;
+    public AudioSource music;
+    public AudioSource effects;
     private Canvas[] allCanvas;
+
+    public AudioClip gameMusic;
+    public AudioClip menuMusic;
+    public AudioClip victory;
+    public AudioClip defeat;
+
+    public static UIScript Instance = null;
+
+    private int currentScene;
 
     void Awake()
     {
-        allCanvas = new Canvas[canvasContainer.transform.childCount];
-        for(int i=0; i < allCanvas.Length; i++)
+        //Singleton
+        if (Instance != null && Instance != this)
         {
-            allCanvas[i] = canvasContainer.transform.GetChild(i).GetComponent<Canvas>();
+            Destroy(this.gameObject);
+            return;
         }
+        else
+        {
+            Instance = this;
+        }
+
+        DontDestroyOnLoad(gameObject);
+
+        currentScene = 0;
+
+        setCanvas();
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+
+        Clip(menuMusic);
     }
 
-    public void ChangeSceneTo(int scene)
-    {
-        SceneManager.LoadScene(scene);
-    }
-
-    public void ChangeScreenTo(int screen)
+    private void resetCanvas()
     {
         foreach (Canvas canvas in allCanvas)
         {
             canvas.enabled = false;
         }
+    }
 
+    private void setCanvas()
+    {
+        canvasContainer = GameObject.FindGameObjectWithTag("Canvas");
+        allCanvas = new Canvas[canvasContainer.transform.childCount];
+        for (int i = 0; i < allCanvas.Length; i++)
+        {
+            allCanvas[i] = canvasContainer.transform.GetChild(i).GetComponent<Canvas>();
+        }
+    }
+
+    public void ResetLevel()
+    {
+        ChangeSceneTo(currentScene);
+    }
+
+    public void ChangeSceneTo(int scene)
+    {
+        if (scene != 0) Clip(gameMusic);
+        else Clip(menuMusic);
+        SceneManager.LoadScene(scene);
+        currentScene = scene;
+    }
+
+    public void ChangeScreenTo(int screen)
+    {
+        if(screen == 4)
+        {
+            music.Stop();
+            Play(defeat);
+        }
+        else if(screen == 5)
+        {
+            music.Stop();
+            Play(victory);
+        }
+
+        resetCanvas();
         allCanvas[screen].enabled = true;
     }
 
@@ -44,19 +101,38 @@ public class UIScript : MonoBehaviour
 
     public void ChangeMusicVolume(float volume)
     {
-        AudioSource audio = music.GetComponent<AudioSource>();
-        audio.volume = volume;
+        music.volume = volume;
     }
 
     public void ChangeEffectsVolume(float volume)
     {
-        AudioSource audio = effects.GetComponent<AudioSource>();
-        audio.volume = volume;
+        effects.volume = volume;
     }
 
-    public void play(AudioClip clip)
+    public void Play(AudioClip clip)
     {
-        AudioSource audio = effects.GetComponent<AudioSource>();
-        audio.PlayOneShot(clip);
+        effects.PlayOneShot(clip);
+    }
+
+    public void Clip(AudioClip clip)
+    {
+        music.Stop();
+        Debug.Log(clip);
+        music.clip = clip;
+        music.Play();
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (currentScene == 0)
+        {
+            ChangeScreenTo(0);
+            Clip(menuMusic);
+        }
+        else
+        {
+            resetCanvas();
+            Clip(gameMusic);
+        }
     }
 }
