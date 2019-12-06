@@ -1,6 +1,6 @@
 # *Rodillo´s Gaming Studio*
 
-# GAME DESIGN DOCUMENT DE HACKING TOWER DEFENSE
+# GAME DESIGN DOCUMENT DE DESKTOP TOWER CHESS
 
 
 # 1. INTRODUCCIÓN 
@@ -8,14 +8,14 @@
 Nuestro equipo de desarrollo, Rodillo´s Games, está compuesto por los siguientes integrantes:
 + Departamento de <b>Programación</b>: Andrés, Manuel y Javier.
 + Departamento de <b>Diseño</b>: Javier y Laura.
-+ Departamento de <b>Modelado y Texturización</b>: Daniel y Laura
-+ Departamento de <b>Arte</b>: Daniel.
++ Departamento de <b>Arte 3D</b>: Daniel y Laura
++ Departamento de <b>Arte 2D/Concept</b>: Daniel.
 <br>
 
 ## DESCRIPCIÓN
 Un extraño programa ha llegado a parar a tu ordenador y te advierte de que te están hackeando.<br>
 
-Siguiendo sus instrucciones y utilizando el <b>protocolo TOWER</b> tendrás que ser capaz de protegerlo para que los hackers no roben sus datos.<br>
+Siguiendo sus instrucciones y a través de una su interfaz gráfica de Tower Defense tendrás que ser capaz de protegerlo para que los hackers no roben sus datos.<br>
   
 Mientras te enfrentas a los hackers irás descubriendo información sobre ellos y se irá mostrando la verdadera naturaleza del programa.<br>
 
@@ -23,11 +23,11 @@ Cómo uses dicho programa dependerá solamente de ti.<br>
 <br>
 
 ## OBJETIVO
-El objetivo de *Hacking Tower Defense* es proteger tu nuevo programa para evitar que los hackers accedan a él y roben sus datos. Para ello, podrás valerte de una serie de torres en los límites físicos del programa que atacarán a todo agente sospechoso que se acerque por la zona. Dispondrás un terreno finito y tu tarea será gestionar y desplegar las distintas torres con las que cuentes en tu inventario. Pero cuidado, si algún hacker consigue entrar, empezará a robarte información y tu código irá desapareciendo paulatinamente hasta que se adueñen de todo tu programa. <b>¡Debes impedirlo!</b>
+El objetivo de *Desktop Tower Chess* es proteger tu nuevo programa para evitar que los hackers accedan a él y roben sus datos. Para ello, podrás valerte de una serie de torres en los límites físicos del programa que atacarán a todo agente sospechoso que se acerque por la zona. Dispondrás un terreno finito y tu tarea será gestionar y desplegar las distintas torres con las que cuentes en tu inventario. Pero cuidado, si algún hacker consigue entrar, empezará a robarte información y tu código irá desapareciendo paulatinamente hasta que se adueñen de todo tu programa. <b>¡Debes impedirlo!</b>
 <br><br>
 
 ## PLATAFORMAS Y REGIONES
-*Hacking Tower Defense* será lanzado originalmente para dispositivos móviles y ordenadores.
+*Desktop Tower Chess* será lanzado originalmente para dispositivos móviles y ordenadores.
 <br><br>
 
 # 2. ESTRUCTURA DEL JUEGO
@@ -53,7 +53,7 @@ La transición de pantallas es la que se indica en el siguiente diagrama.<br>
 <br>
 
 ## MECÁNICAS DE JUEGO
-*Hacking Tower Defense* es un juego estratégico, por lo que las mecánicas son bastantes simples y la experiencia de juego va a depender de la <b>gestión de las unidades en tu inventario</b>.<br>
+*Desktop Tower Chess* es un juego estratégico, por lo que las mecánicas son bastantes simples y la experiencia de juego va a depender de la <b>gestión de las unidades en tu inventario</b>.<br>
 Cuando vayas superando mapas, se te irán entregando nuevas y diferentes torres cuya actuación respecto a los enemigos es distinta. Algunos valores mejoran, y otros empeoran. E incluso aparecen algunos nuevos. La responsabilidad del jugador será sopesar los atributos de las torres defensivas y su efectividad contra los distintos tipos de enemigos que podrán ir apareciendo.
 <br>
 
@@ -126,8 +126,10 @@ Pero cada partida será diferente, pues las combinaciones de enemigos serán ale
 <br><br>
 
 ## PUNTUACIÓN
-La puntuación del juego se basa en la obtención de un número de entre ninguna o 5 estrellas, siendo 0 la peor puntuación y 5 la mejor.<br>
-Lo que decidirá el número de estrellas que dar al jugador dependerá de la <b>vida del programa</b> al finalizar la partida. Si no se ha superado el nivel, nuestra puntuación será de 0 estrellas, y dependiendo del porcentaje restante, se hará una proporción en la que se asignarán 1, 2, 3, 4 o 5 estrellas (este último caso si nuestro programa conserva el 100% de su vida.
+La puntuación del juego se basa por un lado en la obtención de un número de ficheros completos al final del nivel y por otro en el tiempo que se tarde en completar el nivel.<br>
+Lo que decidirá el número de ficheros que dar al jugador dependerá de la <b>cantidad de datos restantes</b> al finalizar la partida. Si no se ha superado el nivel, nuestra puntuación será de 0 ficheros, y dependiendo del porcentaje restante, se hará una proporción en la que se asignarán 1, 2, o 3 ficheros (este último caso si nuestro programa conserva el 100% de sus datos).
+<br>
+El tiempo por otro lado dependerá de la eficiencia en la colocación de las torres de manera que los enemigos se eliminen lo más rápido posible, ya que el tiempo de eliminación de una oleada condiciona la aparición de la siguiente.
 <br>
 
 # 3. LOGÍSTICA
