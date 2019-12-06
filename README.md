@@ -138,7 +138,7 @@ En Modelado se usará *ZBrush* y en Texturización *Substance*.
 <br><br>
 
 ## MONETIZACIÓN
-<p><b>Formato episódico:</b></br> Cada episodio tiene un conjunto de niveles y personajes (hackers) sobre los que vas descubriendo información. Según progresa la historia se irá revelando más información sobre el programa.<br>
+<p><b>Formato episódico:</b></br> Cada episodio tiene un conjunto de niveles y un personaje (hacker) nuevos sobre los que vas descubriendo información. Según progresa la historia se irá revelando más información sobre el programa.<br>
 Los episodios se irán lanzando según se vayan desarrollando, cada uno contará con 3 niveles nuevos, nuevos tipos de torres y enemigos e introducirá a un nuevo personaje, el precio de cada uno de estos episodios será 2.99€.<br></p>
 
 <p>Este precio es el más adecuado porque lo hace algo asequible para el cliente y nos proporcionará una audiencia asegurada en los compradores de los primeros episodios, que deseosos de continuar con la historia seguirán comprando los siguientes.</p>
@@ -154,14 +154,13 @@ Los episodios se irán lanzando según se vayan desarrollando, cada uno contará
 
 <p>Para obtener al menos 10€ de remuneración por cada una de nuestras horas de trabajo necesitaríamos hacer 3 episodios asumiendo que se van a vender 50 copias de cada uno (escenario pesimista), o 2 en el caso del escenario más probable y el optimista, a partir de ahí todas las copias extra y episodios adicionales serían beneficio.<br></p>
 
-<p><b>Booklet de concept:</b><br> Por un pequeño extra puedes obtener un libro con el arte original del juego y comentarios de los desarrolladores sobre los diseños, así como contenido extra (como información nueva sobre los hackers y el protagonista) que amplía el del juego.<br></p>
-<br>
-
 ## FUTURO DE HACKING TOWER DEFENSE
-<p><b>DLC Modo multijugador:</b> en este modo el objetivo será aguantar más tiempo que el rival, de manera que consigas robar todos su datos sin que él robe los tuyos.<br></p>
-
-<p><b>DLC Editor de escenarios:</b> en este modo puedes crear tus propios escenarios, y configurar los enemigos para compartirlos con otros jugadores o jugarlos tú mismo.<br></p>
-<br>
+<p><b>Competitivo: </b></p> 
+<p>Una vez salga cada episodio se establecerá un ranking con los jugadores que hayan conseguido las mejores puntuaciones, este ranking se irá actualizando hasta que termine la temporada de dicho capítulo tras lo que se contactará con el mejor jugador para inspirar en él al hacker antagonista del siguiente episodio.<br></p>
+<p>El puesto en el ranking  dependerá de la suma de los tiempos obtenidos en los 3 niveles del episodio, de manera que los jugadores para llegar a la cima de la clasificación deberán obtener la máxima puntuación posible en todos los niveles.<br></p>
+<p>El ganador además recibirá merchandise e información exclusiva del juego y podrá influir hasta cierto punto en decisiones relativas al diseño del siguiente episodio.<br></p>
+<p>De esta manera se crea comunidad tanto en torno al ganador como al propio competitivo en sí, ya que los jugadores tendrán otro aliciente para jugar en llegar a ser el mejor y así ser premiados e incluidos en el juego.
+<br></p>
 
 ## HOSTING
 El hosting del proyecto se hará en <b>*Git*</b>, del que podrán nutrirse *Facebook* e *itch.io*
