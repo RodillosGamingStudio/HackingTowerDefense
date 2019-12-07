@@ -68,86 +68,103 @@ La transición entre pantallas se conseguirá mediante click en los botones de l
 ## TIPOS DE TORRES
 <p><b>Torre básica</b><br>
   
-- Las torres básicas disparan a un solo objetivo de manera intermitente
+- Las torres básicas disparan a un solo objetivo de manera intermitente.
 
-- Velocidad de disparo: rápida
+- Velocidad de disparo: rápida.
 
-- Coste: bajo
+- Coste: bajo.
 
-- Daño: normal
+- Daño: normal.
 
 <img alt="torre_basica_concept" src="Images/torre_basica_concept.png" width="400"></p>
 <img alt="torre_basica" src="Images/TorreBasica.png" width="200"></p>
 <p><b>Torre en área</b><br>
   
-- Los ataques de estas torres cubren un área en el que dañan a todos los objetivos
+- Los ataques de estas torres cubren un área en el que dañan a todos los objetivos.
 
-- Velocidad de disparo: lenta
+- Velocidad de disparo: lenta.
 
-- Coste: medio
+- Coste: medio.
 
-- Daño: bajo (en área)
+- Daño: bajo (en área).
 
 <img alt="torre_en_area_concept" src="Images/torre_en_area_concept.png" width="400"></p></p>
 <img alt="torre_area" src="Images/TorreArea.png" width="200"></p>
 <p><b>Torre ralentizadora</b><br>
   
-- Los ataques de las torres ralentizadoras cubren un área pero no hacen daño sino que reducen la velocidad de los enemigos
+- Los ataques de las torres ralentizadoras cubren un área pero no hacen daño sino que reducen la velocidad de los enemigos.
   
-- Velocidad de disparo: media
+- Velocidad de disparo: media.
 
-- Coste: medio
+- Coste: medio.
 
-- Daño: nulo
+- Daño: nulo.
 
 <img alt="torre_ralentizadora_concept" src="Images/torre_ralentizadora_concept.png" width="400"></p></p>
 <img alt="torre_ralentizadora" src="Images/TorreSlow.png" width="200"></p>
 <p><b>Torre de rayos</b><br>
   
-- Esta torre dispara de manera continua y sus ataques afectan a un solo objetivo
+- Esta torre dispara de manera continua y sus ataques afectan a un solo objetivo.
 
-- Velocidad de disparo: continua
+- Velocidad de disparo: continua.
 
-- Coste: alto
+- Coste: alto.
 
-- Daño: alto
+- Daño: alto.
 
 <img alt="torre_rayos_concept" src="Images/torre_rayos_concept.png" width="400"></p></p>
 <img alt="torre_rayos" src="Images/TorreLaser.png" width="200"></p>
 
 ## MEJORAS PARA LAS TORRES
-- Mayor velocidad de disparo
-- Mayor daño por disparo
-- Mayor rango
-- Disparo a múltiples objetivos simultáneamente (por ejemplo para la de rayos)
+
+**Al mejorar las torres aumentan dos estadísticas:**
+- Velocidad de disparo.
+- Rango de la torre.
+
+**En el caso de las torres de rayos mejoran:**
+- Daño de disparo.
+- Rango de la torre.
+
+**Además todas las torres aumentan su tamaño al ser mejoradas.**
 <br>
 
 ## TIPOS DE ENEMIGOS
-<p><b>Básico</b><br>
-- Velocidad: lenta<br>
-- Vida: media<br>
-- Coste: 1<br></p>
-<p><b>Tanque</b><br>
-- Velocidad: lenta<br>
-- Vida: alta<br>
-- Coste: 5<br></p>
-<p><b>Sanador</b><br>
-- Velocidad: media<br>
-- Vida: media<br>
-- Restaura vida a otras unidades dentro de su rango de manera periódica<br>
-- Coste: 3<br></p>
-<p><b>Corredor</b><br>
-- Velocidad: rápida<br>
-- Vida: baja<br>
-- Coste: 2<br></p>
-<p><b>Volador</b><br>
-- Velocidad: media<br>
-- Vida: media<br>
-- Al ser volador no le afectan las torres ralentizadoras ni en área<br>
-- Coste: 1<br></p>
+<p><b>Básico</b>
 
-<p>El coste es el daño que produce un enemigo al llegar a la base que se está defendiendo. En otras palabras los datos que se han robado sobre el total de los datos.<br>
-Cada vez que un enemigo sea derrotado devolverá su coste como moneda.</p>
+- Los enemigos más básicos, son los que cuentan con menos vida, carecen de ninguna habilidad.
+- Velocidad: lenta.
+- Vida: baja.
+- Daño: bajo.
+- Beneficio al derrotarlo: bajo.
+</p>
+
+<p><b>Tanque</b>
+
+- Muy similares a los enemigos básicos pero con mucha más vida.
+- Velocidad: lenta.
+- Vida: alta.
+- Daño: alto.
+- Beneficio al derrotarlo: alto.
+</p>
+
+<p><b>Sanador</b>
+
+- Con más vida que los enemigos básicos y con la habilidad de sanar en área, tanto a sí mismos como a otras unidades.
+- Velocidad: media.
+- Vida: media.
+- Daño: medio.
+- Beneficio al derrotarlo: alto.
+</p>
+
+<p><b>Volador</b>
+  
+- Similares a los básicos, pero el ser voladores son inmunes a las torres ralentizadoras y a las torres en área.  
+- Velocidad: media.
+- Vida: baja.
+- Daño: bajo.
+- Beneficio al derrotarlo: medio.
+</p>
+
 <br>
 
 ## MAPAS
@@ -186,7 +203,7 @@ Los episodios se irán lanzando según se vayan desarrollando, cada uno contará
 
 <p>Para obtener al menos 10€ de remuneración por cada una de nuestras horas de trabajo necesitaríamos hacer 3 episodios asumiendo que se van a vender 50 copias de cada uno (escenario pesimista), o 2 en el caso del escenario más probable y el optimista, a partir de ahí todas las copias extra y episodios adicionales serían beneficio.<br></p>
 
-## FUTURO DE HACKING TOWER DEFENSE
+## FUTURO DE DESKTOP TOWER CHESS
 <p><b>Competitivo: </b></p> 
 <p>Una vez salga cada episodio se establecerá un ranking con los jugadores que hayan conseguido las mejores puntuaciones, este ranking se irá actualizando hasta que termine la temporada de dicho capítulo tras lo que se contactará con el mejor jugador para inspirar en él al hacker antagonista del siguiente episodio.<br></p>
 <p>El puesto en el ranking  dependerá de la suma de los tiempos obtenidos en los 3 niveles del episodio, de manera que los jugadores para llegar a la cima de la clasificación deberán obtener la máxima puntuación posible en todos los niveles.<br></p>
