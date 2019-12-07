@@ -128,6 +128,9 @@ La transición entre pantallas se conseguirá mediante click en los botones de l
 **Además todas las torres aumentan su tamaño al ser mejoradas.**
 <br>
 
+## ENEMIGOS
+Los enemigos son los diferentes virus a los que te tendrás que enfrentar mediante las torres, dependiendo del tipo de enemigo tendrá diferentes estadísticas y así mismo si llega al core de tu programa destruirá una cantidad distinta de datos. Al destruir a un enemigo este reportará una ganancia que se podrá invertir en construir nuevas torres o mejorarlas y cuya cuantía también dependera del tipo de enemigo.<br>
+
 ## TIPOS DE ENEMIGOS
 <p><b>Básico</b>
 
