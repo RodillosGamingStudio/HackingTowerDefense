@@ -58,32 +58,62 @@ Cuando vayas superando mapas, se te irán entregando nuevas y diferentes torres 
 <br>
 
 ## CONTROLES
-<p>Los controles serán puramente táctiles en el caso de móviles, y clickeando en el caso de ordenadores. <br>
-La transición entre pantallas se conseguirá mediante click en los botones de la interfaz. Asimismo, la colocación de torres en el mapa se realizará igual.</p>
+<p>Los controles serán puramente táctiles en el caso de móviles, y mediante mouse en el caso de ordenadores. <br>
+La transición entre pantallas se conseguirá mediante click en los botones de la interfaz. La colocación de torres en el mapa se realizará de la misma manera.</p>
 <br>
+
+## TORRES
+<p>Las torres serán el elemento primordial del juego ya que el jugador tendrá que usarlas para defenderse de las hordas de enemigos que vayan llegando. Cada tipo de torre tendrá un precio o coste fijo y todas las torres tendrán unas posiciones específicas y limitadas donde se podrán colocar. Las torres siempre atacarán al objetivo más cercano.</p><br>
 
 ## TIPOS DE TORRES
 <p><b>Torre básica</b><br>
-- Dispara a un solo objetivo de manera intermitente<br>
-- Velocidad de disparo: rápida<br>
-- Coste: bajo<br>
+  
+- Las torres básicas disparan a un solo objetivo de manera intermitente
+
+- Velocidad de disparo: rápida
+
+- Coste: bajo
+
+- Daño: normal
+
 <img alt="torre_basica_concept" src="Images/torre_basica_concept.png" width="400"></p>
+<img alt="torre_basica" src="Images/TorreBasica.png" width="200"></p>
 <p><b>Torre en área</b><br>
-- Sus ataques cubren un área en el que dañan a todos los objetivos<br>
-- Velocidad de disparo: lenta<br>
-- Coste: medio<br>
+  
+- Los ataques de estas torres cubren un área en el que dañan a todos los objetivos
+
+- Velocidad de disparo: lenta
+
+- Coste: medio
+
+- Daño: bajo (en área)
+
 <img alt="torre_en_area_concept" src="Images/torre_en_area_concept.png" width="400"></p></p>
+<img alt="torre_area" src="Images/TorreArea.png" width="200"></p>
 <p><b>Torre ralentizadora</b><br>
-- Sus ataques cubren un área pero no hacen daño sino que reducen la velocidad de los enemigos<br>
-- Velocidad de disparo: media<br>
-- Coste: medio<br>
+  
+- Los ataques de las torres ralentizadoras cubren un área pero no hacen daño sino que reducen la velocidad de los enemigos
+  
+- Velocidad de disparo: media
+
+- Coste: medio
+
+- Daño: nulo
+
 <img alt="torre_ralentizadora_concept" src="Images/torre_ralentizadora_concept.png" width="400"></p></p>
+<img alt="torre_ralentizadora" src="Images/TorreSlow.png" width="200"></p>
 <p><b>Torre de rayos</b><br>
-- Dispara de manera continua y sus ataques afectan a un solo objetivo<br>
-- Coste: alto<br>
+  
+- Esta torre dispara de manera continua y sus ataques afectan a un solo objetivo
+
+- Velocidad de disparo: continua
+
+- Coste: alto
+
+- Daño: alto
+
 <img alt="torre_rayos_concept" src="Images/torre_rayos_concept.png" width="400"></p></p>
-<p><b>NOTA:</b> Todas las torres disparan al primer objetivo que entra a su rango hasta que sale del mismo, después seleccionan al siguiente más adelantado dentro de su rango</p>
-<br>
+<img alt="torre_rayos" src="Images/TorreLaser.png" width="200"></p>
 
 ## MEJORAS PARA LAS TORRES
 - Mayor velocidad de disparo
