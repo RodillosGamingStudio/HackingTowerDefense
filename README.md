@@ -1,7 +1,7 @@
 # *Rodillo´s Gaming Studio*
 
 # GAME DESIGN DOCUMENT DE DESKTOP TOWER CHESS
-
+<p><img alt="Portada" src="Images/Portada.jpg"></p>
 
 # 1. INTRODUCCIÓN 
 ## EQUIPO DE DESARROLLO
@@ -194,6 +194,7 @@ En Modelado se usará *ZBrush* y en Texturización *Substance*.
 <br><br>
 
 ## MONETIZACIÓN
+<p><b>Público Objetivo:</b> El juego irá orientado tanto a amantes de los juegos de estrategia por sus mecánicas como a personas interesadas en el mundo del hacking y la informática por su estética y argumento. Además buscará captar también al público interesado en los juegos competitivos.<br></p>
 <p><b>Formato episódico:</b></br> Cada episodio tiene un conjunto de niveles y un personaje (hacker) nuevos sobre los que vas descubriendo información. Según progresa la historia se irá revelando más información sobre el programa.<br>
 Los episodios se irán lanzando según se vayan desarrollando, cada uno contará con 3 niveles nuevos, nuevos tipos de torres y enemigos e introducirá a un nuevo personaje, el precio de cada uno de estos episodios será 2.99€.<br></p>
 
@@ -216,7 +217,9 @@ Los episodios se irán lanzando según se vayan desarrollando, cada uno contará
 <p>El puesto en el ranking  dependerá de la suma de los tiempos obtenidos en los 3 niveles del episodio, de manera que los jugadores para llegar a la cima de la clasificación deberán obtener la máxima puntuación posible en todos los niveles.<br></p>
 <p>El ganador además recibirá merchandise e información exclusiva del juego y podrá influir hasta cierto punto en decisiones relativas al diseño del siguiente episodio.<br></p>
 <p>De esta manera se crea comunidad tanto en torno al ganador como al propio competitivo en sí, ya que los jugadores tendrán otro aliciente para jugar en llegar a ser el mejor y así ser premiados e incluidos en el juego.
-<br></p>
+<br>
+A continuación podemos ver una imagen que representaría el ranking con los mejores jugadores cuando estuviese implementado: </p>
+<p><img alt="Mockup_Score" src="Images/MockupScore.jpg" width></p>
 
 ## HOSTING
 El hosting del proyecto se hará en <b>*Git*</b>, del que podrán nutrirse *Facebook* e *itch.io*
