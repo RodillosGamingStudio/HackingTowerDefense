@@ -140,6 +140,7 @@ Los enemigos son los diferentes virus a los que te tendrás que enfrentar median
 - Daño: bajo.
 - Beneficio al derrotarlo: bajo.
 </p>
+<p><img alt="Enemy_Normal" src="Images/EnemyNormal.jpg" width="300"></p>
 
 <p><b>Tanque</b>
 
@@ -149,6 +150,7 @@ Los enemigos son los diferentes virus a los que te tendrás que enfrentar median
 - Daño: alto.
 - Beneficio al derrotarlo: alto.
 </p>
+<p><img alt="Enemy_Tank" src="Images/EnemyTank.jpg" width="300"></p>
 
 <p><b>Sanador</b>
 
@@ -158,6 +160,7 @@ Los enemigos son los diferentes virus a los que te tendrás que enfrentar median
 - Daño: medio.
 - Beneficio al derrotarlo: alto.
 </p>
+<p><img alt="Enemy_Heal" src="Images/EnemyHeal.jpg" width="300"></p>
 
 <p><b>Volador</b>
   
@@ -167,6 +170,7 @@ Los enemigos son los diferentes virus a los que te tendrás que enfrentar median
 - Daño: bajo.
 - Beneficio al derrotarlo: medio.
 </p>
+<p><img alt="Enemy_Flying" src="Images/EnemyFlying.jpg" width="300"></p>
 
 <br>
 
