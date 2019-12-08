@@ -222,9 +222,8 @@ A continuación podemos ver una imagen que representaría el ranking con los mej
 <p><img alt="Mockup_Score" src="Images/MockupScore.jpg" width></p>
 
 ## RECURSOS EXTERNOS
-<p> Se han utilizado diferentes efectos de sonido, vídeos e imágenes bajo diferentes licencias Creative Commons, estos recursos se listan a continuación:
+<p> Se han utilizado diferentes recursos bajo diferentes licencias Creative Commons, estos recursos se listan a continuación:
 
-**RECURSOS UTILIZADOS SIN MODIFICACIONES:**
 <p><b>Laser Shot Silenced</b><br>
 Autor: bubaproducer - https://freesound.org/people/bubaproducer/ <br>
 Fuente: https://freesound.org/people/bubaproducer/sounds/151022/ <br>
