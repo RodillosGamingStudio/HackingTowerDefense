@@ -221,6 +221,46 @@ Los episodios se irán lanzando según se vayan desarrollando, cada uno contará
 A continuación podemos ver una imagen que representaría el ranking con los mejores jugadores cuando estuviese implementado: </p>
 <p><img alt="Mockup_Score" src="Images/MockupScore.jpg" width></p>
 
+## RECURSOS EXTERNOS
+<p> Se han utilizado diferentes efectos de sonido, vídeos e imágenes bajo diferentes licencias Creative Commons, estos recursos se listan a continuación:
+
+**RECURSOS UTILIZADOS SIN MODIFICACIONES:**
+<p><b>Laser Shot Silenced</b><br>
+Autor: bubaproducer - https://freesound.org/people/bubaproducer/ <br>
+Fuente: https://freesound.org/people/bubaproducer/sounds/151022/ <br>
+Licencia: https://creativecommons.org/licenses/by/3.0/ <br><p>
+  
+<p><b>laser</b><br>
+Autor: SamsterBirdies - https://freesound.org/people/SamsterBirdies/ <br>
+Fuente: https://freesound.org/people/SamsterBirdies/sounds/470903/ <br>
+Licencia: https://creativecommons.org/publicdomain/zero/1.0/ <br><p>
+  
+<p><b>laser phaser</b><br>
+Autor: IanStarGem - https://freesound.org/people/IanStarGem <br>
+Fuente: https://freesound.org/people/IanStarGem/sounds/341831/ <br>
+Licencia: https://creativecommons.org/publicdomain/zero/1.0/ <br><p>
+  
+<p><b>8 bit Death sound</b><br>
+Autor: MentosLat - https://freesound.org/people/MentosLat <br>
+Fuente: https://freesound.org/people/MentosLat/sounds/417486/ <br>
+Licencia: https://creativecommons.org/publicdomain/zero/1.0/ <br><p>
+
+<p><b>8 Bit Alarm</b><br>
+Autor: furbyguy - https://freesound.org/people/furbyguy <br>
+Fuente: https://freesound.org/people/furbyguy/sounds/365641/ <br>
+Licencia: https://creativecommons.org/publicdomain/zero/1.0/ <br><p>
+
+<p><b>cha ching</b><br>
+Autor: creek23 - https://freesound.org/people/creek23 <br>
+Fuente: https://freesound.org/people/creek23/sounds/75235/ <br>
+Licencia: https://creativecommons.org/licenses/by-nc/3.0/<br><p>
+  
+<p><b>8-Bit PowerUp</b><br>
+Autor: jalastram - https://freesound.org/people/jalastram <br>
+Fuente: https://freesound.org/people/jalastram/sounds/317768/ <br>
+Licencia: https://creativecommons.org/licenses/by/3.0/<br><p>
+</p>
+
 ## HOSTING
 El hosting del proyecto se hará en <b>*Git*</b>, del que podrán nutrirse *Facebook* e *itch.io*
 <br><br>
