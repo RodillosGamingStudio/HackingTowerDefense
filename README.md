@@ -261,6 +261,36 @@ Fuente: https://freesound.org/people/jalastram/sounds/317768/ <br>
 Licencia: https://creativecommons.org/licenses/by/3.0/<br><p>
 </p>
 
+<p><b>Electrical Sweep</b><br>
+Autor: Sweeper <br>
+Fuente: http://soundbible.com/1795-Electrical-Sweep.html <br>
+Licencia: https://creativecommons.org/publicdomain/zero/1.0/ <br><p>
+
+<p><b>Electronic Chime</b><br>
+Autor: KevanGC<br>
+Fuente: http://soundbible.com/1598-Electronic-Chime.html <br>
+Licencia: https://creativecommons.org/publicdomain/zero/1.0/ <br><p>
+  
+<p><b>Skype Feedback</b><br>
+Autor:  ezwa<br>
+Fuente: http://soundbible.com/1349-Skype-Feedback.html<br>
+Licencia: https://creativecommons.org/publicdomain/zero/1.0/ <br><p>
+
+<p><b>Weather Alert</b><br>
+Autor: Mike Koenig<br>
+Fuente: http://soundbible.com/1020-Weather-Alert.html<br>
+Licencia: https://creativecommons.org/licenses/by/3.0/<br><p>
+  
+<p><b>Game Fail Sound Effect 2</b><br>
+Autor: SPANAC<br>
+Fuente: https://www.freesoundslibrary.com/game-fail-sound-effect-2/<br>
+Licencia: https://creativecommons.org/licenses/by/4.0/<br><p>
+  
+<p><b>Positive Game Notification</b><br>
+Autor: ALEXANDAR <br>
+Fuente: https://www.freesoundslibrary.com/positive-game-notification/<br>
+Licencia: https://creativecommons.org/licenses/by/4.0/<br><p>
+
 ## HOSTING
 El hosting del proyecto se hará en <b>*Git*</b>, del que podrán nutrirse *Facebook* e *itch.io*
 <br><br>
